@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @workstation.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @workstation.description %>
+</p>
+
+<%= link_to 'Edit', edit_workstation_path(@workstation) %> |
+<%= link_to 'Back', workstations_path %>
